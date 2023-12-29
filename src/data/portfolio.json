@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "title": "News letter sign up form",
+      "techStack": [
+        "TypeScript",
+        "Next.js",
+        "Styled Components",
+        "React Hook Form",
+        "Yup"
+      ],
+      "description": "It is a simple sign up form where user can add email and submit the form. User gets validation messages",
+      "link": {
+        "github": "https://github.com/csoumya14/NewsLetterSignUP",
+        "live": "https://news-letter-sign-up-eosin.vercel.app/"
+      }
+    },
+    {
+      "title": "Space tourism",
+      "techStack": ["TypeScript", "Next.js", "Styled Components"],
+      "description": "Responsive multipage website about space tourism",
+      "link": {
+        "github": "https://github.com/csoumya14/space-tourism",
+        "live": "https://space-tourism-893q-rfbhwfki6-csoumya14.vercel.app/"
+      }
+    },
+    {
+      "title": "Interactive pricing component",
+      "techStack": ["Typescript", "Styled Components"],
+      "description": "An interactive pricing component with custom range input slider and pricing toggle",
+
+      "link": {
+        "github": "https://github.com/csoumya14/interactive-pricing-component.git",
+        "live": "https://interactive-pricing-component-csoumya14.vercel.app/"
+      }
+    },
+    {
+      " title": "Todo app",
+      "techStack": ["React", "Styled components", "React beautiful Dnd"],
+      " description": "A todo app with a dark/light theme toggle and drag and drop reordering",
+      "link": {
+        "github": "https://github.com/csoumya14/Todo-app-final.git",
+        "live": "https://todo-app-final.vercel.app/"
+      }
+    },
+    {
+      "title": "PhotoSnap multi page website",
+      "techStack": ["React", "Styled Components"],
+      " description": "Marketing site for a photo sharing app",
+      "link": {
+        "github": "https://github.com/csoumya14/PhotoSnapNew.git",
+        "live": "https://photo-snap-new.vercel.app/"
+      }
+    }
+  ]
+}
