@@ -19,8 +19,8 @@ const theme: DefaultTheme = {
   },
   fontSizes: {
     heading1: {
-      smallScreen: "50px",
-      bigScreen: "50px",
+      smallScreen: "30px",
+      bigScreen: "35px",
     },
     heading2: {
       smallScreen: "40px",

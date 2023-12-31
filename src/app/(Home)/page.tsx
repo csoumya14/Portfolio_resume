@@ -18,8 +18,11 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <IntroductionImage imageSrc={data.resume[0].introductionImage} />
-        <IntroductionText text={data.resume[0].introduction} />
+        <IntroductionImage
+          imageSrc={data.resume[0].introductionImage}
+          text={data.resume[0].introduction}
+        />
+
         <AboutMe
           imageSrc={data.resume[0].profileImage}
           description={data.resume[0].summary}

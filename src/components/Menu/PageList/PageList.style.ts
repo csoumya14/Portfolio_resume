@@ -25,6 +25,6 @@ export const StyledLink = styled(Link)`
     border-color: ${(props) => props.theme.palette.primary.grayishDarkBlue};
   }
   @media (min-width: ${(props) => props.theme.mediaSize.s}) {
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
   }
 `;

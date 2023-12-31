@@ -1,9 +1,11 @@
 import styled from "styled-components";
+import websiteCover from "../../../public/home/projectImage.png";
 
 export const ImageContainer = styled.div`
-  height: 50vw;
+  min-height: 80vh;
   position: relative;
-  @media (min-width: ${(props) => props.theme.mediaSize.md}) {
-    
-  }
+  background-image: url(${websiteCover.src});
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 `;

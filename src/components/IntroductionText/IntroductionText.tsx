@@ -7,5 +7,9 @@ interface IntroductionTextProps {
 }
 
 export const IntroductionText: FC<IntroductionTextProps> = ({ text }) => {
-  return <StyledHeading1 textLevel={"h1"}>{text}</StyledHeading1>;
+  return (
+    <StyledHeading1 textLevel={"h1"} className="fontIbarraRealNova">
+      {text}
+    </StyledHeading1>
+  );
 };

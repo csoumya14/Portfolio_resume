@@ -8,5 +8,5 @@ export const Wrapper = styled.div`
   position: fixed;
   z-index: 10;
   padding: 1rem;
-  background-color: transparent;
+  background: ${(props) => props.theme.palette.primary.darkBlue};
 `;

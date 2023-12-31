@@ -16,9 +16,9 @@ export const StyledMenu = styled.nav<{ open: boolean }>`
     height: fit-content;
     background: none;
     top: 0;
-    padding: 2rem;
+    padding: 1rem;
   }
-  @media (min-width: ${(props) => props.theme.mediaSize.lg}) {
+  @media (min-width: ${(props) => props.theme.mediaSize.s}) {
     position: relative;
     margin-right: -1rem;
   }

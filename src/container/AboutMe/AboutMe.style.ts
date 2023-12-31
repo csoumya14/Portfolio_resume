@@ -4,15 +4,17 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 3rem;
   max-width: 100%;
+  min-height: 40vh;
   @media (min-width: ${(props) => props.theme.mediaSize.s}) {
     flex-direction: row;
   }
 `;
 export const ImageContainer = styled.div`
-  width: 50%;
   position: relative;
+  width: 70%;
+  flex: 1;
 `;
 export const TextContainer = styled.div`
   border-bottom: 1px solid grey;
@@ -21,8 +23,10 @@ export const TextContainer = styled.div`
   flex-direction: column;
   padding: 2rem 0;
   gap: 1rem;
-  @media (min-width: ${(props) => props.theme.mediaSize.s}) {
+  flex: 1;
+  @media (min-width: ${(props) => props.theme.mediaSize.lg}) {
     width: 50%;
+    flex: 3;
   }
 `;
 
