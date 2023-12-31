@@ -1,11 +1,11 @@
-interface EducationType {
+export interface EducationType {
   school: string;
   degree: string;
   start: string;
   end: string;
 }
 
-interface WorkType {
+export interface WorkType {
   company: string;
   link: string;
   title: string;

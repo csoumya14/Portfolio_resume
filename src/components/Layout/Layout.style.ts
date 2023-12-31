@@ -5,6 +5,8 @@ export const Section = styled.section`
   flex-direction: column;
   gap: 3rem;
   max-width: 100vw;
+  border: 1px solid red;
   padding: 6rem 2rem;
-  border: 1px solid green;
+  @media (min-width: ${(props) => props.theme.mediaSize.s}) {
+  }
 `;

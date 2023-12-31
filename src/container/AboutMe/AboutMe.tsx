@@ -2,7 +2,12 @@
 import { FC } from "react";
 import Image from "next/image";
 import { Banner } from "@/components/Banner/Banner";
-import { StyledLine, StyledLink, Wrapper } from "./AboutMe.style";
+import {
+  ImageContainer,
+  StyledLink,
+  TextContainer,
+  Wrapper,
+} from "./AboutMe.style";
 
 interface AboutMeProps {
   imageSrc: string;
@@ -12,21 +17,18 @@ interface AboutMeProps {
 export const AboutMe: FC<AboutMeProps> = ({ imageSrc, description }) => {
   return (
     <Wrapper>
-      <Image
-        src={imageSrc}
-        width={50}
-        height={50}
-        alt="profilePic"
-        layout="responsive"
-      />
-      <StyledLine />
-      <Banner textLevel={"h2"}>About Me</Banner>
-      <Banner className="fontPublicSans" textLevel={"p"}>
-        {description}
-      </Banner>
-      <StyledLink color="secondary" href="/portfolio">
-        Go to portfolio
-      </StyledLink>
+      <ImageContainer>
+        <Image src={imageSrc} alt="profilePic" fill={true} objectFit="cover" />
+      </ImageContainer>
+      <TextContainer>
+        <Banner textLevel={"h2"}>About Me</Banner>
+        <Banner className="fontPublicSans" textLevel={"p"}>
+          {description}
+        </Banner>
+        <StyledLink color="secondary" href="/portfolio">
+          Go to portfolio
+        </StyledLink>
+      </TextContainer>
     </Wrapper>
   );
 };

@@ -1,18 +1,28 @@
-"use client";
 import { FC } from "react";
-import { Container, StyledButton } from "./ModalButtonGroup.style";
 
-interface ModalButtonGroupProps {}
+import { EducationType, WorkType } from "@/types/resumeType";
+import { Banner } from "@/components/Banner/Banner";
+import { Container } from "./ModalButtonGroup.style";
+import { ModalButton } from "../ModalButton/ModalButton";
+import { ModalTitleTypes } from "@/enums/ModalTitle";
 
-export const ModalButtonGroup: FC<ModalButtonGroupProps> = () => {
+interface ModalButtonGroupProps {
+  
+  workContent: WorkType[];
+  educationContent:EducationType[]
+}
+
+export const ModalButtonGroup: FC<ModalButtonGroupProps> = ({ workContent,educationContent }) => {
   return (
     <Container>
-      <StyledButton className="fontPublicSans" type="button">
-        Work Experience
-      </StyledButton>{" "}
-      <StyledButton className="fontPublicSans" type="button">
-        Education
-      </StyledButton>
+      <ModalButton
+        text={ModalTitleTypes.WorkExperience}
+        workContent={workContent}
+      />
+      <ModalButton
+        text={ModalTitleTypes.Education}
+        educationContent={educationContent}
+      />
     </Container>
   );
 };

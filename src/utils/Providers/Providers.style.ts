@@ -6,8 +6,5 @@ export const Main = styled.main`
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
-  max-width: 100vh;
-  border: 1px solid red;
+  max-width: 100vw;
 `;
-
-

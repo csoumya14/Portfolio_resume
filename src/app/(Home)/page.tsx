@@ -1,12 +1,11 @@
 "use client";
 import { Layout } from "@/components/Layout/Layout";
-import Image from "next/image";
 import { IntroductionText } from "@/components/IntroductionText/IntroductionText";
 import useSWR from "swr";
 import { ResumeType } from "@/types/resumeType";
 import { AboutMe } from "@/container/AboutMe/AboutMe";
 import { ModalButtonGroup } from "@/container/ModalButtonGroup/ModalButtonGroup";
-import { Footer } from "@/container/Footer/Footer";
+import { IntroductionImage } from "@/container/IntroductionImage/IntroductionImage";
 
 const fetcher = (url: RequestInfo | URL) =>
   fetch(url).then((res) => res.json());
@@ -19,21 +18,17 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <Image
-          src={data.resume[0].introductionImage}
-          width={50}
-          height={50}
-          alt="image of code and computer"
-          layout="responsive"
-        />
+        <IntroductionImage imageSrc={data.resume[0].introductionImage} />
         <IntroductionText text={data.resume[0].introduction} />
         <AboutMe
           imageSrc={data.resume[0].profileImage}
           description={data.resume[0].summary}
         />
-        <ModalButtonGroup />
+        <ModalButtonGroup
+          workContent={data.resume[0].work}
+          educationContent={data.resume[0].education}
+        />
       </Layout>
-      <Footer />
     </>
   );
 }
