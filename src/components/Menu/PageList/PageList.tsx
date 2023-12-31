@@ -10,7 +10,7 @@ interface listItemType {
 
 interface PageListProps {
   listItem: listItemType;
-  toggleNav: () => void;
+  toggleNav?: () => void;
 }
 
 export const PageList: FC<PageListProps> = ({ listItem, toggleNav }) => {
@@ -23,6 +23,7 @@ export const PageList: FC<PageListProps> = ({ listItem, toggleNav }) => {
         href={listItem.href}
         aria-current={listItem.href === pathname ? "page" : undefined}
         onClick={toggleNav}
+        className="fontPublicSans"
       >
         {listItem.pageTitle}
       </StyledLink>

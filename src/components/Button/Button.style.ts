@@ -13,6 +13,5 @@ const COLOR = {
 };
 
 export const Container = styled.button<ButtonProps>`
-  border-radius: 50%;
   ${(props) => props.color && COLOR[props.color]}
 `;

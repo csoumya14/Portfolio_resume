@@ -5,6 +5,6 @@ export const Section = styled.section`
   flex-direction: column;
   gap: 3rem;
   max-width: 100vw;
-  padding: 9rem 2rem;
+  padding: 6rem 2rem;
   border: 1px solid green;
 `;
