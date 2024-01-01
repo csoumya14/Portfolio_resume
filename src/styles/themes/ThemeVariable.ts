@@ -20,7 +20,7 @@ const theme: DefaultTheme = {
   fontSizes: {
     heading1: {
       smallScreen: "30px",
-      bigScreen: "35px",
+      bigScreen: "52px",
     },
     heading2: {
       smallScreen: "40px",

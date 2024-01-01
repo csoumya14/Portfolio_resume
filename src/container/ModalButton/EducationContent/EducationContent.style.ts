@@ -14,11 +14,16 @@ export const StyledListItem = styled.li`
   gap: 0.5rem;
 `;
 
-export const StyledSchoolName = styled(Banner)`
+export const StyledWrapper = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
   font-size: 20px;
+  color: ${(props) => props.theme.palette.primary.darkBlue};
+`;
+
+export const StyledSchoolName = styled(Banner)`
+  padding: 0;
   color: ${(props) => props.theme.palette.primary.darkBlue};
 `;
 

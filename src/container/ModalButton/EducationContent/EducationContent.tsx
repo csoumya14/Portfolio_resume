@@ -4,6 +4,7 @@ import {
   StyledDegree,
   StyledListContainer,
   StyledListItem,
+  StyledWrapper,
 } from "./EducationContent.style";
 import { EducationType } from "@/types/resumeType";
 
@@ -16,12 +17,14 @@ export const EducationContent: FC<EducationContentProps> = ({ content }) => {
     <StyledListContainer>
       {content?.map((item) => (
         <StyledListItem key={item.school}>
-          <StyledSchoolName textLevel="p" className="fontPublicSans">
-            {item.school}
+          <StyledWrapper>
+            <StyledSchoolName textLevel="p" className="fontPublicSans">
+              {item.school}
+            </StyledSchoolName>
             <span>
               {item.start}-{item.end}
             </span>
-          </StyledSchoolName>
+          </StyledWrapper>
           <StyledDegree textLevel="p" className="fontIbarraRealNova">
             {item.degree}
           </StyledDegree>

@@ -25,5 +25,5 @@ export interface ResumeType {
     education: EducationType[];
     work: WorkType[];
     skills: string[];
-  }[];
+  };
 }

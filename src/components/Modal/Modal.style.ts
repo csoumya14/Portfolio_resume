@@ -25,7 +25,6 @@ export const StyledModal = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  align-items: center;
   border-radius: 20px;
 `;
 
@@ -34,4 +33,5 @@ export const StyledButton = styled(Button)`
   border: 1px solid;
   border-color: ${(props) => props.theme.palette.primary.darkBlue};
   color: ${(props) => props.theme.palette.primary.darkBlue};
+  align-self: center;
 `;

@@ -16,7 +16,11 @@ export const Menu: FC<MenuProps> = () => {
     <>
       <NavBar toggleNav={toggleNav} setOpen={setOpen} open={open} />
       <OpenCloseButton type="button" onClick={toggleNav}>
-        {open ? <Close fillColor="#5fb4a2" /> : <Hamburger fillColor="#5fb4a2" />}
+        {open ? (
+          <Close fillColor="#ffffff" />
+        ) : (
+          <Hamburger fillColor="#ffffff" />
+        )}
       </OpenCloseButton>
     </>
   );

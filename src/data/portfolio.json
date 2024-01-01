@@ -9,6 +9,7 @@
         "React Hook Form",
         "Yup"
       ],
+      "projectImage": "/portfolio/NewsLetterSignUP.png",
       "description": "It is a simple sign up form where user can add email and submit the form. User gets validation messages",
       "link": {
         "github": "https://github.com/csoumya14/NewsLetterSignUP",
@@ -18,6 +19,7 @@
     {
       "title": "Space tourism",
       "techStack": ["TypeScript", "Next.js", "Styled Components"],
+      "projectImage": "/portfolio/SpaceTourism.png",
       "description": "Responsive multipage website about space tourism",
       "link": {
         "github": "https://github.com/csoumya14/space-tourism",
@@ -27,6 +29,7 @@
     {
       "title": "Interactive pricing component",
       "techStack": ["Typescript", "Styled Components"],
+      "projectImage": "/portfolio/InteractivePricingComponent.png",
       "description": "An interactive pricing component with custom range input slider and pricing toggle",
 
       "link": {
@@ -35,9 +38,10 @@
       }
     },
     {
-      " title": "Todo app",
+      "title": "Todo app",
       "techStack": ["React", "Styled components", "React beautiful Dnd"],
-      " description": "A todo app with a dark/light theme toggle and drag and drop reordering",
+      "projectImage": "/portfolio/TodoApp.png",
+      "description": "A todo app with a dark/light theme toggle and drag and drop reordering",
       "link": {
         "github": "https://github.com/csoumya14/Todo-app-final.git",
         "live": "https://todo-app-final.vercel.app/"
@@ -46,7 +50,8 @@
     {
       "title": "PhotoSnap multi page website",
       "techStack": ["React", "Styled Components"],
-      " description": "Marketing site for a photo sharing app",
+      "projectImage": "/portfolio/PhotoSnap.png",
+      "description": "Marketing site for a photo sharing app",
       "link": {
         "github": "https://github.com/csoumya14/PhotoSnapNew.git",
         "live": "https://photo-snap-new.vercel.app/"

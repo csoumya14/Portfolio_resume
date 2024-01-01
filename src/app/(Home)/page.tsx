@@ -1,6 +1,5 @@
 "use client";
 import { Layout } from "@/components/Layout/Layout";
-import { IntroductionText } from "@/components/IntroductionText/IntroductionText";
 import useSWR from "swr";
 import { ResumeType } from "@/types/resumeType";
 import { AboutMe } from "@/container/AboutMe/AboutMe";
@@ -18,18 +17,14 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <IntroductionImage
-          imageSrc={data.resume[0].introductionImage}
-          text={data.resume[0].introduction}
-        />
-
+        <IntroductionImage text={data.resume.introduction} />
         <AboutMe
-          imageSrc={data.resume[0].profileImage}
-          description={data.resume[0].summary}
+          imageSrc={data.resume.profileImage}
+          description={data.resume.summary}
         />
         <ModalButtonGroup
-          workContent={data.resume[0].work}
-          educationContent={data.resume[0].education}
+          workContent={data.resume.work}
+          educationContent={data.resume.education}
         />
       </Layout>
     </>

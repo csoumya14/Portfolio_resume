@@ -6,19 +6,13 @@ import { ImageContainer } from "./IntroductionImage.style";
 import { IntroductionText } from "@/components/IntroductionText/IntroductionText";
 
 interface IntroductionImageProps {
-  imageSrc: string;
   text: string;
 }
 
-export const IntroductionImage: FC<IntroductionImageProps> = ({
-  imageSrc,
-  text,
-}) => {
+export const IntroductionImage: FC<IntroductionImageProps> = ({ text }) => {
   return (
-    <>
-      <ImageContainer>
-        <IntroductionText text={text} />
-      </ImageContainer>
-    </>
+    <ImageContainer>
+      <IntroductionText text={text} />
+    </ImageContainer>
   );
 };

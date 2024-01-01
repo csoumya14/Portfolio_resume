@@ -1,54 +1,52 @@
 {
-  "resume": [
-    {
-      "name": "Soumya Chalakkal",
-      "address": "Betzykjelsbergs vei 159D Drammen",
-      "introduction": "Hey,I am Soumya Chalakkal and I love building beautiful websites",
-      "profileImage": "/home/profilepic.jpg",
-      "introductionImage": "/home/projectImage.png",
-      "summary": "Dynamic self-taught developer with approximately one and a half years of hands-on experience in proficiently coding websites using modern HTML, CSS, and JavaScript. Seeking to leverage my skills and passion for continuous learning in a challenging role that fosters growth and innovation.",
-      "education": [
-        {
-          "school": "Self-paced Online Courses and Tutorials",
-          "start": "2020",
-          "end": "ongoing"
-        },
-        {
-          "school": "University of Kerala, Kerala, India",
-          "degree": "Masters of Technology(Optoelectronics and optical communication)",
-          "start": "2011",
-          "end": "2013"
-        }
-      ],
-      "work": [
-        {
-          "company": "Wrepit",
-          "link": "https://wrepit.net",
-          "title": "Junior Front-end developer",
-          "start": "2021",
-          "end": "2023",
-          "description": "In this position my major tasks involved,creating features and components,fixing bugs,and testing components."
-        },
-        {
-          "company": "Upnorth ventures",
-          "link": "https://upnorth.vc/",
+  "resume": {
+    "name": "Soumya Chalakkal",
+    "address": "Betzykjelsbergs vei 159D Drammen",
+    "introduction": "Hey,I am Soumya Chalakkal and I love building beautiful websites",
+    "profileImage": "/home/profilepic.jpg",
+    "introductionImage": "/home/projectImage.png",
+    "summary": "Dynamic self-taught developer with approximately one and a half years of hands-on experience in proficiently coding websites using modern HTML, CSS, and JavaScript. Seeking to leverage my skills and passion for continuous learning in a challenging role that fosters growth and innovation.",
+    "education": [
+      {
+        "school": "Self-paced Online Courses and Tutorials",
+        "start": "2020",
+        "end": "ongoing"
+      },
+      {
+        "school": "University of Kerala, Kerala, India",
+        "degree": "Masters of Technology(Optoelectronics and optical communication)",
+        "start": "2011",
+        "end": "2013"
+      }
+    ],
+    "work": [
+      {
+        "company": "Wrepit",
+        "link": "https://wrepit.net",
+        "title": "Junior Front-end developer",
+        "start": "2021",
+        "end": "2023",
+        "description": "In this position my major tasks involved,creating features and components,fixing bugs,and testing components."
+      },
+      {
+        "company": "Upnorth ventures",
+        "link": "https://upnorth.vc/",
 
-          "title": "Front-end intern",
-          "start": "2021",
-          "end": "2021",
-          "description": "I actively participated in developing responsive and visually appealing websites adhering to modern design principles using HTML, CSS, and JavaScript.Implemented innovative solutions to enhance user experience and optimize site performance."
-        }
-      ],
-      "skills": [
-        "JavaScript",
-        "TypeScript",
-        "React/Next.js",
-        "Node.js",
-        "Styled Components",
-        "React three fibre",
-        "SASS",
-        "Git version control"
-      ]
-    }
-  ]
+        "title": "Front-end intern",
+        "start": "2021",
+        "end": "2021",
+        "description": "I actively participated in developing responsive and visually appealing websites adhering to modern design principles using HTML, CSS, and JavaScript.Implemented innovative solutions to enhance user experience and optimize site performance."
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "React/Next.js",
+      "Node.js",
+      "Styled Components",
+      "React three fibre",
+      "SASS",
+      "Git version control"
+    ]
+  }
 }

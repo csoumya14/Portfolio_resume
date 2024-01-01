@@ -7,9 +7,13 @@ export const StyledHeading1 = styled(Banner)`
   width: 80%;
   position: absolute;
   bottom: 0;
+  padding: 1rem;
   background: ${(props) => props.theme.palette.neutral.white};
   @media (min-width: ${(props) => props.theme.mediaSize.s}) {
     width: 50%;
+  }
+  @media (min-width: ${(props) => props.theme.mediaSize.md}) {
+    width: 60%;
     font-size: ${(props) => props.theme.fontSizes.heading1.bigScreen};
   }
 `;
