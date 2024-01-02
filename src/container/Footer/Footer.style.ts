@@ -19,6 +19,10 @@ export const StyledFooter = styled.footer`
   width: 100vw;
   background: ${(props) => props.theme.palette.primary.grayishDarkBlue};
   color: ${(props) => props.theme.palette.neutral.white};
+  @media (min-width: ${(props) => props.theme.mediaSize.md}) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 `;
 
 export const IconWrapper = styled.div`

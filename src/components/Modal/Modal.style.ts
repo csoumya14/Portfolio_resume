@@ -3,7 +3,6 @@ import { Button } from "../Button/Button";
 
 export const StyledContainer = styled.div<{ open: boolean }>`
   display: ${({ open }) => (open ? "flex" : "none")};
-
   position: fixed;
   top: 0;
   left: 0;

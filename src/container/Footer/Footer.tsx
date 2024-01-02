@@ -1,8 +1,7 @@
 "use client";
 import { LinkItems } from "@/components/Menu/LinkItems/LinkItems";
-import { NavBar } from "@/components/Menu/NavBar/NavBar";
 import { PageList } from "@/components/Menu/PageList/PageList";
-import { FC, ReactNode, SetStateAction } from "react";
+import { FC } from "react";
 import {
   IconWrapper,
   StyledFooter,
@@ -12,6 +11,7 @@ import {
 import { GitHubIcon } from "@/components/SVGs/GithubIcon/GithubIcon";
 import { LinkedInIcon } from "@/components/SVGs/LinkedInIcon/LinkedIcon";
 import { NavigationLink } from "@/components/NavigationLink/NavigationLink";
+import { SocialProfileLinks } from "../SocialProfileLinks/SocialProfileLinks";
 
 interface FooterProps {}
 
@@ -31,14 +31,13 @@ export const Footer: FC<FooterProps> = () => {
           )}
         />
       </StyledMenu>
-      <IconWrapper>
-        <StyledLink href="https://github.com/csoumya14">
-          <GitHubIcon width={33} height={33} color="#ffffff" />
-        </StyledLink>
-        <StyledLink href="https://www.linkedin.com/in/soumya-chalakkal-60885246">
-          <LinkedInIcon width={33} height={33} color="#ffffff" />
-        </StyledLink>
-      </IconWrapper>
+      <SocialProfileLinks
+        gitHubLink="https://github.com/csoumya14"
+        linkedInLink="https://www.linkedin.com/in/soumya-chalakkal-60885246"
+        width="33"
+        height="33"
+        color="#ffffff"
+      />
     </StyledFooter>
   );
 };
