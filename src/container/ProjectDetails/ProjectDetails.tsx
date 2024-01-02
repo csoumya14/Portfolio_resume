@@ -30,7 +30,13 @@ export const ProjectDetails: FC<ProjectDetailsProps> = ({
   return (
     <Wrapper>
       <ImageContainer>
-        <Image src={imageSrc} alt="project pic" placeholder="empty" fill />
+        <Image
+          src={imageSrc}
+          alt="picture of project"
+          priority
+          placeholder="empty"
+          fill
+        />
       </ImageContainer>
       <TextContainer>
         <Banner className="fontIbarraRealNova" textLevel={"h2"}>
