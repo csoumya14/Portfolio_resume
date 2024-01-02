@@ -1,4 +1,3 @@
-"use client";
 import { FC } from "react";
 import { StyledHeading1 } from "./IntroductionText.style";
 

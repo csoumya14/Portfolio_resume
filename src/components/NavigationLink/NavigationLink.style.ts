@@ -21,15 +21,13 @@ const DISABLED = css`
   color: ${(props) => props.theme.palette.neutral.white};
 `;
 
-const HOVERED = css`
-  background: ${(props) => props.theme.palette.secondary.lightGrey};
-  box-shadow: none;
-  color: ${(props) => props.theme.palette.neutral.white};
-`;
-
 export const Container = styled.a<NavigationLinkProps>`
   padding: 1rem;
   color: ${(props) => props.theme.palette.neutral.white};
+  &:hover {
+    background: ${(props) => props.theme.palette.primary.darkBlue};
+    color: ${(props) => props.theme.palette.neutral.white};
+  }
 
   ${(props) => props.color && COLOR[props.color]}
   ${(props) => props.disabled && DISABLED}

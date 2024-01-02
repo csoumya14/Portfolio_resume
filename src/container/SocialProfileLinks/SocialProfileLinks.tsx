@@ -1,4 +1,3 @@
-"use client";
 import { FC } from "react";
 import { IconWrapper, StyledLink } from "./SocialProfileLinks.style";
 import { GitHubIcon } from "@/components/SVGs/GithubIcon/GithubIcon";

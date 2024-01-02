@@ -1,9 +1,6 @@
 "use client";
 import { Layout } from "@/components/Layout/Layout";
 import useSWR from "swr";
-import { AboutMe } from "@/container/AboutMe/AboutMe";
-import { ModalButtonGroup } from "@/container/ModalButtonGroup/ModalButtonGroup";
-import { IntroductionImage } from "@/container/IntroductionImage/IntroductionImage";
 import { PortfolioType } from "@/types/portfolioType";
 import { ProjectDetails } from "@/container/ProjectDetails/ProjectDetails";
 
@@ -17,7 +14,7 @@ export default function Portfolio() {
   );
   if (error) return <div>Failed to load</div>;
   if (!data) return <div>Loading...</div>;
-  console.log(data);
+
   return (
     <>
       <Layout>

@@ -1,4 +1,4 @@
-import { FC, ReactElement } from "react";
+import { FC } from "react";
 import { StyledButton, StyledContainer, StyledModal } from "./Modal.style";
 
 interface ModalProps {

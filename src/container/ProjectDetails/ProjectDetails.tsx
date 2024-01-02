@@ -1,4 +1,3 @@
-"use client";
 import { FC } from "react";
 import Image from "next/image";
 import { Banner } from "@/components/Banner/Banner";
@@ -31,7 +30,7 @@ export const ProjectDetails: FC<ProjectDetailsProps> = ({
   return (
     <Wrapper>
       <ImageContainer>
-        <Image src={imageSrc} alt="project pic" fill objectFit="content" />
+        <Image src={imageSrc} alt="project pic" placeholder="empty" fill />
       </ImageContainer>
       <TextContainer>
         <Banner className="fontIbarraRealNova" textLevel={"h2"}>

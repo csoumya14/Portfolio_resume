@@ -1,18 +1,19 @@
 import { FC } from "react";
 
 import { EducationType, WorkType } from "@/types/resumeType";
-import { Banner } from "@/components/Banner/Banner";
 import { Container } from "./ModalButtonGroup.style";
 import { ModalButton } from "../ModalButton/ModalButton";
 import { ModalTitleTypes } from "@/enums/ModalTitle";
 
 interface ModalButtonGroupProps {
-  
   workContent: WorkType[];
-  educationContent:EducationType[]
+  educationContent: EducationType[];
 }
 
-export const ModalButtonGroup: FC<ModalButtonGroupProps> = ({ workContent,educationContent }) => {
+export const ModalButtonGroup: FC<ModalButtonGroupProps> = ({
+  workContent,
+  educationContent,
+}) => {
   return (
     <Container>
       <ModalButton

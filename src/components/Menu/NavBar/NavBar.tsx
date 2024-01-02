@@ -1,14 +1,8 @@
-import { Dispatch, FC, RefObject, SetStateAction, useRef } from "react";
+import { Dispatch, FC, SetStateAction, useRef } from "react";
 import { StyledMenu } from "./NavBar.style";
 import { LinkItems } from "../LinkItems/LinkItems";
 import { PageList } from "../PageList/PageList";
 import { useOnClickOutside } from "../../../hooks/useOnClickOutside";
-
-interface listItemType {
-  id: number;
-  href: string;
-  pageTitle: string;
-}
 
 interface NavBarProps {
   toggleNav: () => void;

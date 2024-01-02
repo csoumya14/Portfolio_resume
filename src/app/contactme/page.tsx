@@ -1,7 +1,6 @@
 "use client";
 import { Layout } from "@/components/Layout/Layout";
 import useSWR from "swr";
-import { ProjectDetails } from "@/container/ProjectDetails/ProjectDetails";
 import { ContactType } from "@/types/contactType";
 import { ContactInfo } from "@/container/ContactInfo/ContactInfo";
 

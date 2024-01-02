@@ -1,18 +1,7 @@
-"use client";
 import { FC, useState } from "react";
-import {
-  Container,
-  StyledButton,
-  StyledCompanyName,
-  StyledWrapper,
-  StyledListContainer,
-  StyledListItem,
-  StyledPosition,
-  StyledTitle,
-} from "./ModalButton.style";
+import { Container, StyledButton, StyledTitle } from "./ModalButton.style";
 import { Modal } from "@/components/Modal/Modal";
 import { EducationType, WorkType } from "@/types/resumeType";
-import { Banner } from "@/components/Banner/Banner";
 import { EducationContent } from "./EducationContent/EducationContent";
 import { WorkExperienceContent } from "./WorkExperienceContent/WorkExperienceContent";
 

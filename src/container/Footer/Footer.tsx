@@ -2,15 +2,7 @@
 import { LinkItems } from "@/components/Menu/LinkItems/LinkItems";
 import { PageList } from "@/components/Menu/PageList/PageList";
 import { FC } from "react";
-import {
-  IconWrapper,
-  StyledFooter,
-  StyledLink,
-  StyledMenu,
-} from "./Footer.style";
-import { GitHubIcon } from "@/components/SVGs/GithubIcon/GithubIcon";
-import { LinkedInIcon } from "@/components/SVGs/LinkedInIcon/LinkedIcon";
-import { NavigationLink } from "@/components/NavigationLink/NavigationLink";
+import { StyledFooter, StyledMenu } from "./Footer.style";
 import { SocialProfileLinks } from "../SocialProfileLinks/SocialProfileLinks";
 
 interface FooterProps {}
